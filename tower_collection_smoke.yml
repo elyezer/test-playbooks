@@ -2,7 +2,7 @@
 - hosts: localhost
   gather_facts: false
   vars:
-    collection_id: awx.awx
+    collection_id: ansible.tower
     src_file: tower_collection_smoke.j2
     dest_file: tower_collection_actual.yml
   tasks:
